@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "660811327145",
+    "firebase_url": "https://redchatroom-default-rtdb.firebaseio.com",
+    "project_id": "redchatroom",
+    "storage_bucket": "redchatroom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660811327145:android:0f796abd5edcbb9b8d2bb8",
+        "android_client_info": {
+          "package_name": "com.example.bluechatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660811327145-1vtld9bnrcn072teielojtbov8uv39ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpS9KuwoVlDrj65HnB_ha3-tx-8gsmlK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660811327145-1vtld9bnrcn072teielojtbov8uv39ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660811327145:android:224407894bc115258d2bb8",
+        "android_client_info": {
+          "package_name": "com.example.redchatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660811327145-1vtld9bnrcn072teielojtbov8uv39ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpS9KuwoVlDrj65HnB_ha3-tx-8gsmlK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660811327145-1vtld9bnrcn072teielojtbov8uv39ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

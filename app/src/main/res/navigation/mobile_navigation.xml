@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.bluechatroom.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_global"
+        android:name="com.example.bluechatroom.ui.global.GlobalFragment"
+        android:label="Global"
+        tools:layout="@layout/fragment_global"/>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.bluechatroom.ui.search.SearchFragment"
+        android:label="Faculty"
+        tools:layout="@layout/fragment_search"/>
+
+    <fragment
+        android:id="@+id/navigation_like"
+        android:name="com.example.bluechatroom.ui.like.LikeFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_like"/>
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.bluechatroom.ui.account.AccountFragment"
+        android:label="Student"
+        tools:layout="@layout/fragment_account"/>
+
+
+</navigation>

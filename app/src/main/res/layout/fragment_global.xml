@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract3"
+    tools:context=".ui.global.GlobalFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/server_spinner"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/messageRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="false" />
+
+            <LinearLayout
+                android:id="@+id/NoData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <include layout="@layout/no_data_found" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Spinner
+            android:layout_marginHorizontal="15dp"
+            android:id="@+id/server_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/footer"
+            android:spinnerMode="dropdown" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="#fff"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <EditText
+                    android:id="@+id/message_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:background="@android:color/transparent"
+                    android:hint="Message"
+                    android:textColor="#000"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/send_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_send_messge_icon" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+</FrameLayout>
