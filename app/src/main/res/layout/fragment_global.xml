@@ -38,11 +38,12 @@
         </LinearLayout>
 
         <Spinner
-            android:layout_marginHorizontal="15dp"
             android:id="@+id/server_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@id/footer"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/item_gradient"
             android:spinnerMode="dropdown" />
 
         <com.google.android.material.card.MaterialCardView

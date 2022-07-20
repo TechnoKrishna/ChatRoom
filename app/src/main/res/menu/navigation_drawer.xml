@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/navigation_logout"
-        android:title="Logout"
-        android:icon="@drawable/ic_logout_icon"/>
-    <!--    <item android:id="@+id/navigation_ebook"-->s
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/Setting"
+            android:icon="@drawable/ic_setting_icon"
+            android:title="Setting"/>
+
+    </group>
+
+    <item android:title="Log Out">
+        <menu>
+
+            <item
+                android:id="@+id/navigation_logout"
+                android:icon="@drawable/ic_logout_icon"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item android:id="@+id/Developer"
+                android:icon="@drawable/ic_developer_icon"
+                android:title="Developer"/>
+
+            <item android:id="@+id/Share"
+                android:icon="@drawable/ic_share_icon"
+                android:title="Share"/>
+
+        </menu>
+    </item>
+
+
+
+    <!--    <item android:id="@+id/navigation_ebook"-->
     <!--        android:title="Ebooks"-->
     <!--        android:icon="@drawable/ic_ebook"/>-->
     <!--    <item android:id="@+id/navigation_theme"-->

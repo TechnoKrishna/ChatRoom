@@ -16,7 +16,7 @@
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/activity_register.xml" value="0.12314814814814815" />
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/drawer_header.xml" value="0.1" />
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/fragment_account.xml" value="0.1" />
-        <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/fragment_global.xml" value="0.1" />
+        <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/fragment_global.xml" value="0.4" />
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/fragment_home.xml" value="0.16259057971014493" />
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/fragment_like.xml" value="0.16259057971014493" />
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/fragment_search.xml" value="0.264" />
@@ -24,7 +24,7 @@
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/no_data_found.xml" value="0.1" />
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/layout/sender_message_layout.xml" value="0.12314814814814815" />
         <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/menu/bottom_nav.xml" value="0.1" />
-        <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/menu/navigation_drawer.xml" value="0.1" />
+        <entry key="..\:/Langauge/ANDROID DEVELOPMENT/ANDROID DEVELOPMENT LEARN/BlueChatRoom/app/src/main/res/menu/navigation_drawer.xml" value="0.264" />
       </map>
     </option>
   </component>
