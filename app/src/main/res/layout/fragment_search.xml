@@ -17,7 +17,7 @@
             android:id="@+id/searchView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#009688"
+            android:background="@drawable/search_gradient"
             android:textAlignment="center"
             app:iconifiedByDefault="false"
             app:searchIcon="@drawable/ic_search_icon" />

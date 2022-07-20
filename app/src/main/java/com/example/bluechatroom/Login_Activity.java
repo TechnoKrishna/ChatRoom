@@ -73,6 +73,10 @@ public class Login_Activity extends AppCompatActivity {
         String shared_online_status = sharedPreferences.getString(KEY_ONLINE_STATUS, null);
         String shared_logged_status = sharedPreferences.getString(KEY_LOGGED_STATUS, null);
 
+        isOnlineVerify isOnlineVerify = new isOnlineVerify();
+
+        isOnlineVerify.internetIsConnected();
+
         if (shared_logged_status != null) {
 
             Intent intent = new Intent(Login_Activity.this, DashBoard.class);

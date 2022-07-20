@@ -3,16 +3,18 @@
     android:id="@+id/cardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="4dp"
-    android:backgroundTint="#B6DFFF">
+    android:layout_margin="4dp">
+
+    <!--    android:backgroundTint="#B6DFFF"-->
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="16dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/item_gradient"
         android:orientation="vertical">
 
         <LinearLayout
+            android:paddingVertical="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
